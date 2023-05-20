@@ -36,8 +36,8 @@ public class SiteUser {
     private LocalDateTime create_userTime = LocalDateTime.now(); //회원 생성 시간
     
     @Enumerated(EnumType.STRING)
-    private UserRole role = UserRole.USER;
- 
+    private UserRole role;
+    
     private int partner = 0; // 파트너 여부 1: 파트너임 , 0: 파트너 아님 , 기본값은 0 으로 지정
     
     private int admin =0 ;  // 관리자 여부 1: 관리자임, 0:관리자 아님  , 기본값은 0으로 지정
