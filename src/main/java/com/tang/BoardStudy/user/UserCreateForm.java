@@ -33,11 +33,5 @@ public class UserCreateForm {
     @Email(message = "이메일 형식에 맞지 않습니다.") 
     private String email;
 	
-<<<<<<< HEAD
-	@Enumerated(EnumType.STRING)
-	private UserRole role = UserRole.USER;
-=======
 
->>>>>>> a4a4d3b (권한수정 변경)
-	
 }

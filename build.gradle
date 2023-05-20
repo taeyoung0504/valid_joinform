@@ -4,11 +4,10 @@ plugins {
 	id 'io.spring.dependency-management' version '1.1.0'
 }
 
-<<<<<<< HEAD
 group = 'com.tang.BoardStudy'
-=======
+
 group = 'com.tang'
->>>>>>> a4a4d3b (권한수정 변경)
+
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
@@ -28,7 +27,8 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.thymeleaf.extras:thymeleaf-extras-springsecurity6:3.1.1.RELEASE'
-  implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+  //implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+  implementation 'com.google.code.gson:gson:2.8.7'
   implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 }
 
